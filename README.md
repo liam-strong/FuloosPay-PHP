@@ -1,4 +1,4 @@
-# Fuloos RPC API
+# Fuloos Pay API
 
 A PHP implementation Class for Fuloos Pay API.
 

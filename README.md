@@ -35,16 +35,7 @@ Any errors will invoke a new Exception to be called. I am still working on this 
 # Methods
 
 # _checkaccount
-      @JSON Array:
-        status of request:
-        full_name:
-        email_address:
-        balance:
-        last_login:
-        account_status:
-
-   
-        
+Output for using for this method.   
 ```
 {
     "status": "200",
@@ -61,19 +52,10 @@ Any errors will invoke a new Exception to be called. I am still working on this 
 ```
 
 # _checkinvoice
+Output for using for this method.
 
-    @JSON Array:
-        status of request:
-        status of invoice:
-        amount_fls:
-        amount_usd:
-        invoice_link:
-        invoice_id:
+Result->Status = 1 - Unpaid | 2 - Paid
 
-        //Status Codes:
-        1: Unpaid
-        2: Paid
-        
 ```
 {
     "status": "200",

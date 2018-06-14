@@ -84,18 +84,15 @@
 
     /*
 
-      @Method: Returns the checkinvoice command:
+      @Method: Returns the fuloos_price command:
       @JSON Array:
-        status of request:
-        status of invoice:
-        amount_fls:
-        amount_usd:
-        invoice_link:
-        invoice_id:
+      "result": {
+          "fuloos_usd": "0.0313",
+          "fuloos_eur": 0.0264798,
+          "fuloos_gbp": 0.02335606,
+          "fuloos_php": 1.66829,
+          "fuloos_idr": 435.8525
 
-        //Status Codes:
-        1: Unpaid
-        2: Paid
 
     */
 

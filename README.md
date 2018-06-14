@@ -35,12 +35,45 @@ Any errors will invoke a new Exception to be called. I am still working on this 
 # Methods
 
 # _checkaccount
-```
+      @JSON Array:
+        status of request:
+        full_name:
+        email_address:
+        balance:
+        last_login:
+        account_status:
 
+   
+        
 ```
+{
+    "status": "200",
+    "method": "check_account",
+    "result": {
+        "full_name": "Jimmy's Account",
+        "email_address": "test_jim@example.com",
+        "balance": 4000,
+        "usd_balance": 300,
+        "last_login": 4 hours ago,
+        "account_status": active
+    }
+}
 
 
 # _checkinvoice
+
+    @JSON Array:
+        status of request:
+        status of invoice:
+        amount_fls:
+        amount_usd:
+        invoice_link:
+        invoice_id:
+
+        //Status Codes:
+        1: Unpaid
+        2: Paid
+        
 ```
 {
     "status": "200",

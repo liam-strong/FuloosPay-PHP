@@ -34,10 +34,27 @@ Any errors will invoke a new Exception to be called. I am still working on this 
 
 # Methods
 
-# check_account
-# check_invoice
-# add_invoice
-# check_accesskey
+# _checkaccount
+```
+
+```
+
+
+# _checkinvoice
+```
+{
+    "status": "200",
+    "method": "check_invoice",
+    "result": {
+        "status": 0,
+        "amount_fls": 100,
+        "amount_usd": 10,
+        "invoice_link": "https://www.fuloospay.net/invoice/feb8169433e2c1e6cba4e55f373fec",
+        "invoice_id": "feb8169433e2c1e6cba4e55f373fec",
+    }
+}
+```
+
 
 
 ## Closing

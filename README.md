@@ -21,7 +21,7 @@ This class is very simple to use, you need to simply include the api.class.php f
   // Send request to the API
   $data = $Fuloos->_checkaccount();
   
-  echo "Your name is:" . $data['full_name'];
+  echo "Your name is:" . $data['result']['full_name'];
   
 
 ```

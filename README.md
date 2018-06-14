@@ -19,7 +19,9 @@ This class is very simple to use, you need to simply include the api.class.php f
   $FuloosPay = new \API\FuloosPay("Access-Key");
   
   // Send request to the API
-  $Fuloos->_check_key();
+  $data = $Fuloos->_checkaccount();
+  
+  echo "Your name is:" . $data['full_name'];
   
 
 ```

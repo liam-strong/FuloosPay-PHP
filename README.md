@@ -58,7 +58,7 @@ Any errors will invoke a new Exception to be called. I am still working on this 
         "account_status": active
     }
 }
-
+```
 
 # _checkinvoice
 

@@ -82,9 +82,40 @@
     }
 
 
+    /*
+
+      @Method: Returns the checkinvoice command:
+      @JSON Array:
+        status of request:
+        status of invoice:
+        amount_fls:
+        amount_usd:
+        invoice_link:
+        invoice_id:
+
+        //Status Codes:
+        1: Unpaid
+        2: Paid
+
+    */
+
+    public function _fuloosprice()
+    {
+      $data = $this->run(
+        array(
+          'key' => $this->access_key,
+          'method' => "fuloos_price",
+        )
+      );
+
+      return $data;
+    }
+
+
+
 
     /*
-      Please do not edit the run method, this is used to send request to the fuloospay API.
+      Please do not edit the run method, this is used to send request to the API.
       If this is changed, please make sure you know what you are doing..
     */
 
